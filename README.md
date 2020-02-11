@@ -1,6 +1,7 @@
 ## Pre-reqs to run this project:
 
 1- Direct internet communication. In case of a intermediate proxy, make shure that the configurations are ok!
+
 2- Installed products:
 
 - Virtual Box
