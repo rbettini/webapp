@@ -2,7 +2,7 @@
 
 1- Direct internet communication. In case of a intermediate proxy, make shure that the configurations are ok!
 
-2- Installed products:
+2- Install the products:
 
 - Virtual Box
 https://www.virtualbox.org/
@@ -16,7 +16,7 @@ https://www.vagrantup.com/downloads.html
 ## Starting the infrastructure provisioning
 
 - Download "Vagrantfile" file on your computer (https://github.com/rbettini/webapp/blob/master/vagrant/Vagrantfile)
-- Create a directory to run vagrant and execute the command bellow in a CMD terminal (or Bash Linux):
+- Create a directory to run the vagrant and execute the command bellow in a CMD terminal (or Bash Linux):
 
   vagrant init
 
