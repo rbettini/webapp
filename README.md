@@ -1,6 +1,6 @@
 ## Pre-reqs to run this project:
 
-1- Direct internet communication. In case of a intermediate proxy, make shure that the configurations are ok!
+1- Direct internet communication. In case of an intermediate proxy, make shure that the configurations are ok!
 
 2- Install the products:
 
@@ -20,13 +20,14 @@ https://www.vagrantup.com/downloads.html
 
   vagrant init
 
+
 - Replace the Vagrantfile by the Vagrantfile that you have been downloaded.
 - Execute this another command in a CMD terminal (or Bash Linux):
   
   vagrant up
   
   
-Wait the infrastructure to be provisioned and check it through your local web browser in http://localhost:8080 (should appear "Test OK!")
+Wait the infrastructure to be provisioned and check it through your local web browser in http://localhost:8080 (should show "Test OK!")
 
 
 This automation will provision:
