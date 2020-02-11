@@ -27,4 +27,11 @@ https://www.vagrantup.com/downloads.html
   
 Wait the infrastructure to be provisioned and check it through your local web browser in http://localhost:8080 (should appear "Test OK!")
 
+
+This automation will provision:
+
+- One Linux CentOS7 VM Instance with 4Gb of memory
+- Docker installed and running
+- One Apache HTTP Server Instance running in Docker Container
+
 Done!
