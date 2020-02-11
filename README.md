@@ -15,7 +15,9 @@ https://www.vagrantup.com/downloads.html
 - In the same directory where vagrantfile have been saved, open CMD (Windows) or Bash (Linux) and execute these commands bellow, in a sequence:
   
   vagrant init
+  
   vagrant up
+  
   
 Wait the infrastructure to be provisioned and check it through your local web browser in http://localhost:8080 (should appear "Test OK!")
 
