@@ -1,6 +1,7 @@
-These are the pre-reqs to run this project:
+## Pre-reqs to run this project:
 
-Install products:
+1- Direct internet communication. In case of a intermediate proxy, make shure that the configurations are ok!
+2- Installed products:
 
 - Virtual Box
 https://www.virtualbox.org/
@@ -11,10 +12,15 @@ https://www.vagrantup.com/downloads.html
 
 #############################################################
 
-- Download "Vagrantfile" file on your computer.
-- In the same directory where vagrantfile have been saved, open CMD (Windows) or Bash (Linux) and execute these commands bellow, in a sequence:
-  
+## Starting the infrastructure provisioning
+
+- Download "Vagrantfile" file on your computer (https://github.com/rbettini/webapp/blob/master/vagrant/Vagrantfile)
+- Create a directory to run vagrant and execute the command bellow in a CMD terminal (or Bash Linux):
+
   vagrant init
+
+- Replace the Vagrantfile by the Vagrantfile that you have been downloaded.
+- Execute this another command in a CMD terminal (or Bash Linux):
   
   vagrant up
   
