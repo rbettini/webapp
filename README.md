@@ -15,7 +15,7 @@ https://www.vagrantup.com/downloads.html
 
 ## Starting the infrastructure provisioning
 
-- Download "Vagrantfile" file on your computer (https://github.com/rbettini/webapp/blob/master/vagrant/Vagrantfile)
+- Download the "Vagrantfile" file on your computer (https://github.com/rbettini/webapp/blob/master/vagrant/Vagrantfile)
 - Create a directory to run the vagrant and execute the command bellow in a CMD terminal (or Bash Linux):
 
   vagrant init
@@ -30,7 +30,7 @@ https://www.vagrantup.com/downloads.html
 Wait the infrastructure to be provisioned and check it through your local web browser in http://localhost:8080 (should show "Test OK!")
 
 
-This automation will provision:
+This automation will provides:
 
 - One Linux CentOS7 VM Instance with 4Gb of memory
 - Docker installed and running
